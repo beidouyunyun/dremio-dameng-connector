@@ -77,7 +77,7 @@ public class DaMengConf extends AbstractArpConf<DaMengConf> {
         final String username = checkNotNull(this.username, "Missing username.");
         final String password = checkNotNull(this.password, "Missing password.");
 
-        logger.info("DaMengConf ---- jdbc:dm:"+host+":"+port);
+        logger.info("DaMengConf ---- jdbc:dm://"+host+":"+port);
         return String.format("jdbc:dm://%s:%s", host, port);
     }
 
