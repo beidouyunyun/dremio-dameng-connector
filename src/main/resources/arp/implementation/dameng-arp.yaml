@@ -53,6 +53,11 @@ data_types:
         name: "integer"
       required_cast_arguments: "none"
     - source:
+        name: "INTEGER"
+      dremio:
+        name: "integer"
+      required_cast_arguments: "none"
+    - source:
         name: "DECIMAL"
       dremio:
         name: "double"
